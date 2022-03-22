@@ -15,8 +15,8 @@ const images = [
 const gallery = document.querySelector(".gallery");
 const murkup = images
   .map(
-    (e) =>
-      `<li class="img-list"><img class="size" src="${e.url}" alt = "${e.alt}"></li>`
+    (i) =>
+      `<li class="img-list"><img class="size" src="${i.url}" alt = "${i.alt}"></li>`
   )
   .join("");
 gallery.insertAdjacentHTML("beforeend", murkup);
