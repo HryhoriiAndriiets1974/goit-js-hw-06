@@ -11,8 +11,8 @@ btn[1].addEventListener('click', () => {
   destroyBoxes();
 });
 function createBoxes(amount) {
-  let height = 30;
-  let width = 30;
+  let height = 20;
+  let width = 20;
   for (let i= 1; i <= amount; i += 1) {
     height += 10;
     width += 10;
