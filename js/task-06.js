@@ -1,3 +1,4 @@
+// --------------- 1
 const inputEl = document.querySelector("#validation-input");
 const length = parseInt(inputEl.dataset.length);
 
@@ -15,3 +16,13 @@ inputEl.addEventListener("blur", (n) => {
     inputEl.classList.remove("invalid");
   }
 });
+// -------------- 2--
+// const inputEl = document.querySelector("#validation-input");
+
+// function inputFunction (e) {
+//    e.target.value.length === length(inputEl.dataset.length)?
+//    inputEl.classList.add("valid") : inputEl.classList.add("invalid");
+//     if (!inputEl.value) inputEl.removeAttribute("class");
+// };
+
+// inputEl.addEventListener("blur", inputFunction);
